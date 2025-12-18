@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #0d1b2a;
+}
+
+body {
+    position: relative;
+}
+
+h1 {
+    background-color: #0d1b2a;
+    color: #778da9;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choice {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #90e0ef;
+   
+}
+
+img { 
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+
+
+#scissors {
+    background-color: #7EACFF;
+    border: 1px solid white;
+}
+#scissors:hover {
+    box-shadow: 0 0 5px #7EACFF,
+    0 0 25px #7EACFF, 0 0 50px #7EACFF,
+    0 0 100px #7EACFF, 0 0 200px #7EACFF;
+}
+
+
+#paper {
+    background-color: #c38edc;
+    border: 1px solid white;
+}
+#paper:hover {
+    box-shadow: 0 0 5px #c38edc,
+    0 0 25px #c38edc, 0 0 50px #c38edc,
+    0 0 100px #c38edc, 0 0 200px #c38edc;
+}
+
+
+#rock {
+    background-color: #F083A2;
+    border: 1px solid white;
+}
+#rock:hover {
+    box-shadow: 0 0 5px #F083A2,
+    0 0 25px #F083A2, 0 0 50px #F083A2,
+    0 0 100px #F083A2, 0 0 200px #F083A2;
+}
+
+.textGlow:hover {
+    color: #48bfe3;
+    text-shadow: 0 0 5px #5390d9, 
+     0 0 15px #5390d9, 0 0 20px #5390d9,
+     0 0 40px #5390d9, 0 0 60px #ffffff, 
+     0 0 10px #ffffff, 0 0 98px #ffffff;
+}
+
+
+
+.score-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #778da9;
+    font-size: 2rem;
+    margin: 3rem;
+    gap: 5rem;
+}
+
+#user-score, #comp-score {
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+#user-score:hover, #comp-score:hover {
+    color: #48bfe3;
+    text-shadow: 0 0 5px #5390d9, 
+     0 0 15px #5390d9, 0 0 20px #5390d9,
+     0 0 40px #5390d9, 0 0 60px #ffffff, 
+     0 0 10px #ffffff, 0 0 98px #ffffff;
+}
+
+
+#msg {
+    color: #778da9;
+    font-size: 2rem;
+    background-color: #e0e1dd;
+    display: inline;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
