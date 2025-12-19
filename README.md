@@ -5,7 +5,7 @@ This repository contains my frontend development projects built using **JavaScri
 ---
 
 ##  React Projects
-- **Food Del**  
+- **Tomato**  
   A React-based frontend application with food filtering, cart functionality, and dynamic UI updates.
 
 ---
