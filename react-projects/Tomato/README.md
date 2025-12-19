@@ -1,8 +1,44 @@
-# React + Vite
+# Tomato 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Food Del is not a real food delivery website but a practice project designed to simulate core frontend features commonly found in food-related applications. Users can browse food options, apply filters, add items to the cart, and view the total price on the cart page.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
+
+- Browse a variety of food items  
+- Filter food items based on food type  
+- Add and remove items from the cart  
+- View selected items on a dedicated cart page  
+- Display total price of items in the cart  
+- Clean and user-friendly interface  
+
+---
+
+## Tech Stack
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+- **Figma** (used for basic UI planning and design)
+
+---
+
+## What I Learned
+
+- Building reusable components in React  
+- Managing state for cart functionality  
+- Implementing filtering logic using JavaScript  
+- Structuring a React project efficiently  
+- Improving UI design sense and layout planning  
+
+---
+
+## Getting Started
+
+To run this project locally:
+
+```bash
+npm install
+npm run dev
